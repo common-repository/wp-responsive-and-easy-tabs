@@ -1,0 +1,97 @@
+.wpet-tab-main-div {
+    background: rgba(0, 0, 0, 0) linear-gradient(#c7b199, #f3dbc3, #dfc7ad) repeat-x scroll 0 0;
+    padding: 0 10px 15px;
+	overflow:hidden;
+}
+.wpet-tab-main-div .tab-cat-name li{
+	list-style:none;
+}
+
+.wpet-tab-main-div .tab-cat-name {
+    margin: 10px 0 20px;
+    padding: 0;
+}
+
+.wpet-tab-main-div .tab-cat-name li a {
+    background: rgba(0, 0, 0, 0) linear-gradient(#4a4a4a, #4b4b4b, #31302b) repeat-x scroll 0 0;
+    border-top: 2px solid #000;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 2px;
+    padding: 2% 4%;
+	cursor:pointer;
+	font-weight:700;
+}
+.wpet-tab-main-div .tab-cat-name li a.active {
+    background: rgba(0, 0, 0, 0) linear-gradient(#c7b199, #f3dbc3, #dfc7ad) repeat-x scroll 0 0;
+    border-left: 1px solid #dfc7ad;
+    border-right: 1px solid #dfc7ad;
+    box-shadow: 0 -3px 3px 0 #000;
+    color: #000;
+}
+
+.wpet-tab-main-div .tab-listing {
+    border: 2px solid #dfc7ad;
+    box-shadow: 0 0 3px #000;
+    font-size: 14px;
+    padding: 13px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.wpet-tab-main-div .tab-cat-name li a:hover{
+   text-decoration:none;	
+}
+
+.wpet-tab-main-div::after, .wpet-tab-main-div::before {
+    clear: both;
+    content: "";
+    display: block;
+    overflow: hidden;
+}
+
+.tab-cat-name > li::after, .tab-cat-name > li::before {
+    clear: both;
+    content: "";
+    display: block;
+    overflow: hidden;
+}
+
+.tab-cat-name::after, .tab-cat-name::before {
+    clear: both;
+    content: "";
+    display: block;
+    overflow: hidden;
+}
+
+.main-tab-content {
+    min-height: 200px;
+    position: relative;
+}
+
+/*===================================================================*/
+
+@media only screen and (min-width:320px) and (max-width:412px){
+.wpet-tab-main-div .tab-cat-name {
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.wpet-tab-main-div .tab-cat-name li a {
+    font-size: 13px;
+    padding: 2.49%;
+}
+
+.wpet-tab-main-div .tab-cat-name li a:last-child{
+	margin-right:0px;
+}
+
+	
+	
+}
+
+
+
+/*===================================================================*/
+
